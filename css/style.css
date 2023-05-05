@@ -1,0 +1,183 @@
+
+
+/* starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+body{
+    font-family: arial;
+    background-color:rgb(25, 25, 57);
+    
+}
+.container{
+    width: 1200px;
+    margin:auto;
+    height: 100vh;
+  
+    
+ 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+/* first section starts */
+.first_part{
+    width: 18%;
+    background-color:rgb(106, 106, 244);
+    height: 300px;
+    border-radius: 10px;
+     
+    
+}
+
+
+
+.cnt_center{
+    align-items: center;
+}
+.first_part img{
+    border-radius: 50%;
+   margin: 20px 25px;
+   border: 2px solid white;
+}
+
+.first_part p{
+ margin-top: 15px;
+ font-size: 15px;
+ margin-left: 25px;
+ color: #ddd;
+
+}
+.first_part h4{
+    font-size:35px;
+    margin-left: 25px;
+    color: #fff;
+  
+   
+}
+
+.first_part .son{
+    width: 100%;
+    background-color: rgb(40, 40, 128);
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 30px;
+   
+  
+    
+}
+.son p{
+    margin: 0;
+    padding: 8px 20px;
+    font-size: 15px;
+    transition: 0.2s;
+    color: #a39e9e;
+}
+
+.first_part .son p:hover{
+    color: #fff;
+    cursor: pointer;
+}
+/* first section ends */
+
+/* second section 6 boxes starts */
+.sec_part{
+    width: 82%;
+}
+
+.back{
+width: 27%;
+background-color: rgb(255, 136, 0);
+border-radius: 10px;
+margin: 0 50px;
+margin-top: 50px;
+}
+.icon{
+    
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.37);
+   padding-left: 80%;
+   padding-top: 10px;
+}
+
+.backSon{
+background-color:rgb(40, 40, 128) ;
+margin-top: 10px;
+border-radius: 10px;
+height: 130px;
+}
+
+.first_para{
+ color: #fff;
+ padding: 15px 15px;
+ font-size:15px;
+
+
+
+}
+
+.mid_head{
+ color: rgb(253, 252, 252);
+ padding: 0 15px;
+ font-size: 35px;
+}
+
+.last_para{
+color: #a39e9e;
+padding: 10px 15px;
+}
+.dots{
+    margin-left: 150px;
+}
+
+.backTwo{
+  width: 27%;  
+  background-color: rgb(112, 209, 248);
+  border-radius: 10px;
+  margin-top: 50px;
+  
+}
+
+.backThree{
+   width: 27%; 
+   margin-left: 45px;
+   background-color: rgb(245, 100, 148);
+   border-radius: 10px;
+   margin-top: 50px;
+}
+
+.backFour{
+   width: 27%; 
+   margin: 0 50px;
+   margin-left: 50px;
+   background-color: rgb(104, 249, 104);
+   border-radius: 10px;
+  
+}
+
+.backFive{
+ width: 27%;  
+ background-color: rgb(234, 70, 234);
+ border-radius: 10px;
+
+}
+
+.backSix{
+  width: 27%; 
+  margin-left: 45px; 
+ background-color: rgb(227, 227, 103);
+ border-radius: 10px;
+}
+/* /*Ends */
